@@ -1,0 +1,133 @@
+.h2-color{
+	font-family : Century ;
+	letter-spacing: 5px;
+	text-transform : capitalize;
+	
+}
+.h3-color{
+	color: purple;
+	font-family: Century Gothic;
+	text-decoration:underline ;
+}
+.h4-color{
+	color: blue;
+}
+.h5-color{
+	color: purple;
+
+}
+.h6-color:hover {
+	color: red;
+}
+a:hover {
+	color:darkred ;
+
+}
+a{
+	font-family:Century Gothic;
+	text-decoration:underline ;
+    text-transform: uppercase; 
+    color: darkblue;
+}
+.sub{
+	font-family:Century Gothic ;
+	
+}
+.control__1{
+	font-family: Century Gothic;
+    text-decoration:underline ;
+    letter-spacing: 10px;
+    
+    background-color: #039be5;
+	font-weight: normal;
+	display: flex;
+	width: 300px;
+	
+
+}
+li{
+	font-family: Britannic bold;
+}	
+.p__1{
+	font-family: verdana;
+}
+.move__2{
+	text-indent: 520px;
+	color: darkblue;
+	font-family: Century Gothic;
+}
+.move__3{
+	text-indent: 100px;
+	color: purple;
+	font-family: Century Gothic;
+}
+.move__4{
+	text-indent: 500px;
+	color: black;
+	font-family: Century Gothic;
+    text-decoration:underline ;
+}
+.move__5{text-indent: 100px;
+	color: black;
+	font-family: Century Gothic;
+    text-decoration:underline ;
+    font-size: 30px;
+   ;
+}
+
+
+.move__6{text-indent: 110px;
+	color: darkblue;
+	font-family: Century Gothic;
+
+}
+.style__{
+	font-family: verdana;
+}
+.move__principales{
+	color: black;
+	font-family: Century Gothic;
+    text-decoration:underline ;
+}
+.century{
+font-family: Century Gothic;	
+}
+.style__1{
+	text-indent: 50px;
+	color: purple;
+	font-family: Century Gothic;
+}
+.style__2{
+text-indent: 520px;
+	color: #ea899a;
+	font-family: Century Gothic;
+}
+.enlaceboton {    font-family: century Gothic, arial, sans-serif;
+   font-size: 11pt;
+   font-weight: normal;
+   padding: 6px;
+   background-color: ghostwhite;
+   color: purple;
+   text-decoration: none;
+   
+}
+.enlaceboton:link,
+.enlaceboton:visited {
+   border-top: 2px solid #cccccc;
+   border-bottom: 3px solid #666666;
+   border-left: 2px solid #cccccc;
+   border-right: 3px solid #666666;
+}
+.enlaceboton:hover {
+    border-bottom: 2px solid #cccccc;
+   border-top: 3px solid #666666;
+   border-right: 1px solid #cccccc;
+   border-left: 3px solid #666666;
+}
+.nav__1{
+	background-color: #039be5;
+	font-weight : normal;
+	display: block;
+	width: 500px;
+
+}

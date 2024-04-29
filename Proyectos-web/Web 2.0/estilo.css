@@ -1,0 +1,183 @@
+
+
+* {
+	font-family: Verdana;
+}
+
+/* Estilos de prueba 1 */
+#prueba__1 {
+	background-color: #08a0f7;
+	color: white;
+	width: 250px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	text-decoration: underline;
+	border-radius: 25px;
+
+}
+
+/* Estilos de navegación 1 */
+#nav__1 {
+	background-color: #08a0f7;
+	padding: 10px;
+	justify-content: space-between;
+	border-radius: 15px;
+	
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav a:hover {
+	background-color: white;
+	color: #333;
+	border-radius: 15px;
+}
+
+/* Estilos de prueba 2 */
+#prueba__2 {
+	background-color: purple;
+	color: white;
+	width: 250px;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Estilos de navegación 2 */
+#nav__2 {
+	background-color: purple;
+	padding: 10px;
+	justify-content: space-between;
+	border-radius: 15px;
+}
+
+.texto__1 {
+	font-family: Verdana;
+}
+
+#plan__1:hover {
+	color: grey;
+}
+#plan__1 {
+	color: blue;
+	text-decoration: none;
+}
+
+#plan__2 {
+	font-family: Arial;
+	margin: 30px;
+	background-color: deepskyblue;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	line-height: 30px;
+	font-size: medium;
+	width: 20%;
+}
+
+#b-1 {
+	background-color: white;
+	border-radius: 10px;
+	padding: 5px;
+	display: flex; 
+	
+}
+
+.texto__2 {
+	display: flex;
+}
+
+#img__1 {
+	height: 100px;
+	width: 100px;
+	padding-left: 40px;
+	display: flex;
+}
+
+.sub__1 {
+	margin: 10px;
+	font-family: Arial;
+}
+
+.imagenes__1 {
+	padding: 5px;
+	min-width: 25%;
+	max-width: 50%;
+	min-height: 25%;
+	max-height: 50%;
+}
+
+.imagenes__2 {
+	padding: 5px;
+	min-width: 5%;
+	max-width: 10%;
+	min-height: 10%;
+	max-height: 5%;
+}
+.imagenes__3{
+	padding: 5px;
+	min-width: 5%;
+	max-width: 10%;
+	min-height: 10%;
+	max-height: 5%;
+	display: flex;
+	padding-left: 45%;
+}
+
+#div__1 {
+	margin: 30px;
+}
+
+#div__2 {
+	margin: 30px;
+}
+
+#div__3 {
+	margin: 30px;
+}
+
+.Textos-1 {
+	letter-spacing: 10%;
+	/* Espacios entre las letras del texto */
+	text-transform: capitalize;
+	/* Cambiar mayúsculas a minúsculas y viceversa "decoracion" */
+	line-height: 10px;
+	/* Espacio entre el texto
+     ejemplo:texto
+             prueba */
+	/*vertical-align: ;
+	/* Ajusta texto/imagen en la línea (funciona mejor con imágenes) */
+
+	background-color: #08a0f7;
+	border: solid 5px black;
+	width: 40%;
+	height: 10px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+}
+
+.Textos-1:hover {
+	background-color: purple;
+	border: solid 5px grey;
+	width: 40%;
+	height: 10px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px;
+	color: white;
+}
+.Text-compra-1 {
+	text-align: center;
+	margin: 30px;
+	color: #3564ea ;
+}
+.Text-compra-2{
+	text-align: center;
+	margin: 30px;
+}

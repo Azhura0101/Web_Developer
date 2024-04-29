@@ -1,0 +1,61 @@
+* {
+	
+}
+.contact-form {
+font-size: 30px	;
+font-family: arial light;
+width: ;
+height: ;
+padding-left: 300px;
+}
+.contact-form__2{
+	font-size:25px;
+	font-family: arial;
+	padding-left: 550px;
+	 text-decoration: underline;
+    text-decoration-color: blue; 
+
+}
+.contact-form__3{
+	font-size: 25px;
+	font-family: arial;
+	
+}
+.imagenes__1{
+	
+height: 350%;
+	padding-left: 150px;
+width: 35%;
+}
+.imagenes__2{
+	padding-left: 100px;
+}
+.imagenes__3{
+	
+height: 350%;
+	padding-left: 100px;
+width: 35%;
+}
+.imagenes__4{
+	
+height: 35%;
+	padding-left: 50px;
+width: 35%;
+}
+
+#background{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+
+.banda__1{
+	width: 100%;
+	height: 100%;
+}
+.index__1{
+	padding-left: 100px;
+}

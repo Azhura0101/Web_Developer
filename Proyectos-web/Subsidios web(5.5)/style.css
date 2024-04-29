@@ -1,0 +1,145 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background: #4E67EB;
+    height: 10rem;
+    position: relative;
+}
+
+
+
+
+.nav_titulo h1 {
+   font-size: 1.6rem;
+   margin-left: 4rem;
+}
+.nav_botones{
+   background-color: #00005B;
+   width: fit-content;
+   margin-left: 4rem;
+}
+.nav_botones a{
+    color: white;
+    text-decoration: none;
+    padding: 4px;
+    margin-left: 10px;
+}
+
+.posicion_botones{
+    background-color: #00005B;
+    margin-left: 100px;
+}
+
+#subsidios_titulo {
+    margin: auto;
+    background: #579AD4;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    width: 50%;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+
+}
+
+#subsidios_titulo,
+#entrada_texto p,
+span {
+    cursor: default;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#entrada_texto {
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    margin: auto;
+    background-color: beige;
+   
+}
+
+#entrada_texto p {
+    background: #F7F6E7;
+    padding: 7px;
+    border-radius: 8px;
+    width: 15%;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 15px;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+#entrada_texto input {
+    border: 1px solid #002C3E;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+    outline: none;
+}
+
+main button {
+    margin: auto;
+    padding: 8px 5px;
+    margin-top: 1rem;
+    background-color: #4E67EB;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    width: 1rem;
+    height: 100%;
+    padding: 10px 20px;
+    font-size: 15px;
+
+}
+
+main button:hover {
+    background-color: #00005B;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    background: #BDC1CC;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+span {
+    font-size: 18px;
+}
+
+span:nth-child(1) {
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}

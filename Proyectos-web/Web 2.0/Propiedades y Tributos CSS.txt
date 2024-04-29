@@ -1,0 +1,57 @@
+Propiedades y Tributos CSS
+
+font-family: Establece una familia o fuente tipográfica.
+
+font-style: Estilo normal, cursiva u oblicua. Atributos [ normal | italic | oblique ]
+
+font-variant: Convierte las minúsculas en mayúsculas pero en tamaño menor. Atributos [ normal | small-caps ]
+
+font-weight: Grosor de la tipografía especificado en medidas de 100 a 900.
+
+font-size: tamaño o cuerpo de letra especificado en píxeles (px).
+text-indent: cantidad de desplazamiento lateral de la primera línea del texto, expresado en px.
+
+text-align: alineación del texto. Atributos [ left | right | center | justify ]
+
+text-decoration: aplica efectos de subrayado, tachado, parpadeo. Atributos [ none | [ underline || overline || line-through || blink ] ]
+
+letter-spacing: espaciado entre caracteres especificado en px.
+
+text-transform: para transformar los textos a mayúsculas o minúsculas [ capitalize | uppercase | lowercase | none ].
+
+line-height: interlineado entre renglones de texto expresado en px.
+
+vertical-align: alineación vertical del texto. Atributos [ baseline | sub | super | top | text-top | middle | bottom | text-bottom | <porcentaje> | <longitud> ]
+ 
+
+Para elementos gráficos de la web
+
+width: ancho de un elemento o imagen. Puede definirse en píxeles (px), unidades em (em) y porcentajes (%).
+Ej.: #content {width:960px;}
+
+height: altura de un elemento o imagen. Igual que la anterior.
+Ej.: #header {height: 250px;}
+
+background-color: color de fondo de un elemento. Se expresa en valor hexadecimal con # y seis caracteres. Ej.: #boton {background-color: #1CBACC;}
+
+background-image: imagen de fondo para un elemento.
+Ej.: #content {background-image: url(«https://www.aulacm.com/fondo.jpg);}
+
+background-repeat: repetición o no de la imagen dentro del fondo (ideal para crear patterns o fondos con texturas). Se puede repetir en x (en horizontal) o en y (en vertical).
+Ej.: #content {background-repeat: repeat-x;}
+
+background-position: posición de la imagen dentro del fondo. Se puede definir al centro, izquierda o derecha. También con píxeles y porcentajes.
+Ej.: #content {background-position: center;}
+
+border: borde de un elemento o imagen. Tiene 3 parámetros: tipo de borde (liso, punteado, rayas, etc), grosor (expresado en píxeles) y color (expresado en valor hexadecimal). También puede definirse sin borde (none).
+Ej.: #boton {border: solid 1px #000000}
+
+display: modo en que se muestra un elemento o imagen o no mostrarlo nunca. Tiene diversos valores, los más comunes son: mostrar elementos en bloque (block),
+
+z-index: posición de un elemento o imagen en el eje z (para poner elementos tapando a otros elementos)
+ 
+
+Para añadir espacios o márgenes
+margin: margen a partir de un elemento hacia afuera expresado en px. Suele empujar a otros elementos cercanos
+
+padding: relleno o espacio interior desde el borde de un elemento hacia dentro. Ampliar padding suele arrastrar hacia fuera los bordes y por consiguiente aumenta el tamaño del elemento

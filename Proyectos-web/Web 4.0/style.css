@@ -1,0 +1,103 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#header {
+    color: aliceblue;
+    background-color:black;
+    max-width: 15%;
+    margin:auto;
+    border-radius: 15px;
+padding-right: 20px;
+padding-left: 20PX;
+    display: flex;
+    margin-bottom: 10PX;
+}
+#header_2 {
+    color: aliceblue;
+    background-color:black;
+    max-width: 33%;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 10PX;
+    border-radius: 30px;
+}
+#nav_1 {
+    background-color: black;
+    justify-content: space-between;
+    font-style: italic;
+    padding: 8px;
+    border-radius: 25px;
+    position: fixed;
+
+}
+nav a{
+
+    padding: 5px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.835);
+    border-radius:9px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+nav a:hover{
+    background-color: rgb(128, 128, 128);
+    color: aliceblue;
+}
+#textoTitulo{
+    color: aliceblue;
+    background-color:black;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+}
+.MusicTitle{
+    color: white;
+    display:inline-flex;
+    background-color: rgba(0, 0, 0, 0.922);
+    min-height:15%;
+    min-width: 30%;
+   border-radius: 15px;
+   margin: 10px;
+}
+
+.imagenMusic{
+  width: 15%;
+
+padding-right: 5px;
+border-radius: 15px;
+}
+
+#TextColorFix{
+margin: auto;
+margin-bottom: 20%;
+ background-color: white;
+ height: 20px;
+ min-width:50% ;
+ border-radius: 25px;
+ text-align: center;
+}
+
+.ingreso{
+    background-color: black;
+    display: inline-flex; 
+    min-width: 35%;
+    max-width: 90% ;
+height: 250px;
+}
+#ingresopersona{
+    margin: 15px;
+    margin-top: 30px;
+    margin-left:30px ;
+}
+#imagenIngreso{
+  padding-left: 44%;
+  min-width: 50px;
+  max-width: 100px;
+  margin-top: 150px;
+  margin-left:-400px ;
+}
+#link{
+    text-decoration: none;
+    color: blanchedalmond;
+}
